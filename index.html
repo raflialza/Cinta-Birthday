@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selamat Ulang Tahun, Sayang! ❤️️</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+      <!-- Ganti 'assets/lagu.mp3' dengan file lagu kamu -->
+      <source src="assets/lagu.mp3" type="audio/mpeg" />
+      Browser kamu tidak mendukung pemutar musik.
+    </audio>
+
+    <!-- Floating Music Toggle Button -->
+    <button id="musicBtn" class="music-btn" title="Putar / Hentikan Musik">
+      <i class="fas fa-music"></i>
+    </button>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <span class="badge">Special Day For You 🎉</span>
+        <h1 class="title">
+          Selamat Ulang Tahun, <span class="highlight">Sayangku!</span> ❤️
+        </h1>
+        <p class="subtitle">
+          Semoga harimu penuh kebahagiaan, tawa, dan rasa cinta yang tak pernah
+          usai.
+        </p>
+        <button id="openSurpriseBtn" class="btn-primary">
+          <i class="fas fa-gift"></i> Buka Kejutan
+        </button>
+      </div>
+    </header>
+
+    <!-- Interactive Love Letter Section -->
+    <section class="letter-section" id="letterSection">
+      <div class="container">
+        <h2 class="section-title">Surat Cinta Untukmu 💌</h2>
+
+        <div class="envelope-wrapper">
+          <div class="envelope" id="envelope">
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+            <div class="letter">
+              <p class="letter-text">
+                Hai Sayang,<br /><br />
+                Selamat ulang tahun ya! Terima kasih sudah hadir dan melengkapi
+                hari-hariku. Di usiamu yang baru ini, aku mendoakan semoga kamu
+                selalu sehat, dilancarkan semua urusannya, dan selalu bahagia
+                bersamaku.<br /><br />
+                I love you so much! 💕
+              </p>
+            </div>
+            <div class="hearts">
+              <div class="heart a1"></div>
+              <div class="heart a2"></div>
+              <div class="heart a3"></div>
+              <div class="heart a4"></div>
+              <div class="heart a5"></div>
+              <div class="heart a6"></div>
+            </div>
+          </div>
+        </div>
+        <p class="hint-text">Klik amplop untuk membaca surat!</p>
+      </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section">
+      <div class="container">
+        <h2 class="section-title">Galeri Kenangan Kita 📸</h2>
+        <p class="section-subtitle">Setiap foto punya ceritanya sendiri...</p>
+
+        <div class="gallery-grid">
+          <!-- Foto 1 -->
+          <div class="gallery-card">
+            <img
+              src="assets/foto1.jpeg"
+              alt="Kenangan 1"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=600&q=80'
+              "
+            />
+            <div class="card-caption">
+              <h3>Momen Indah</h3>
+              <p>Kamu mau ya?</p>
+            </div>
+          </div>
+
+          <!-- Foto 2 -->
+          <div class="gallery-card">
+            <img
+              src="assets/foto2.jpeg"
+              alt="Kenangan 2"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=600&q=80'
+              "
+            />
+            <div class="card-caption">
+              <h3>Momen Indah</h3>
+              <p>Jalan-jalan malam favorit</p>
+            </div>
+          </div>
+
+          <!-- Foto 3 -->
+          <div class="gallery-card">
+            <img
+              src="assets/foto3.jpeg"
+              alt="Kenangan 3"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80'
+              "
+            />
+            <div class="card-caption">
+              <h3>Momen Indah</h3>
+              <p>Mirror selfie yaa</p>
+            </div>
+          </div>
+
+          <!-- Foto 4 -->
+            <div class="gallery-card">
+            <img
+              src="assets/foto4.jpeg"
+              alt="Kenangan 4"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80'
+              "
+            />
+            <div class="card-caption">
+              <h3>Momen Indah</h3>
+              <p>Senyuman manismu</p>
+            </div>
+          </div>
+
+          <!-- Foto 5 -->
+            <div class="gallery-card">
+            <img
+              src="assets/foto5.jpeg"
+              alt="Kenangan 5"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80'
+              "
+            />
+            <div class="card-caption">
+              <h3>Momen Indah</h3>
+              <p>Kamu aku cekek</p>
+            </div>
+          </div>
+
+          <!-- Foto 6 -->
+            <div class="gallery-card">
+            <img
+              src="assets/foto6.jpeg"
+              alt="Kenangan 6"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80'
+              "
+            />
+            <div class="card-caption">
+              <h3>Momen Indah</h3>
+              <p>Lucu ya kita</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Memories Section -->
+    <section class="video-section">
+      <div class="container">
+        <h2 class="section-title">Video Spesial 🎥</h2>
+        <div class="video-wrapper">
+          <video
+            controls
+            poster="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=800&q=80"
+          >
+            <source src="assets/vid.mp4" type="video/mp4" />
+            Browser kamu tidak mendukung pemutar video.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- Candle Blowing Interactive Section -->
+    <section class="candle-section">
+      <div class="container">
+        <h2 class="section-title">Make a Wish! 🎂</h2>
+        <p>Make a wish dan klik kue di bawah ini untuk meniup lilin!</p>
+
+        <div class="cake-container" id="cakeBtn">
+          <div class="cake">
+            <div class="plate"></div>
+            <div class="layer layer-bottom"></div>
+            <div class="layer layer-middle"></div>
+            <div class="layer layer-top"></div>
+            <div class="icing"></div>
+            <div class="drip drip1"></div>
+            <div class="drip drip2"></div>
+            <div class="drip drip3"></div>
+            <div class="candle">
+              <div class="flame" id="flame"></div>
+            </div>
+          </div>
+        </div>
+        <p id="wishStatus" class="wish-status">
+          Lilin masih menyala 🔥 (Klik kue untuk meniup)
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Dibuat dengan ❤️ khusus untuk kamu di hari ulang tahunmu.</p>
+    </footer>
+
+    <!-- Canvas Confetti Container -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js" defer></script>
+  </body>
+</html>
